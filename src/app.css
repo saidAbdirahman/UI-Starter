@@ -1,0 +1,120 @@
+.app{
+    text-align: center;
+    /* margin-top: 40px; */
+    box-shadow:  0px 0px 5px #c68e8e;
+   max-width: 50%;
+   margin: auto;
+    height: 33rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3.5rem;
+}
+
+
+button.delete{
+    background-color: red;
+    padding: 7px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+ul{
+  max-width: 65%;
+  margin: 50px auto;
+  border: 1px solid #ded8d8;
+
+}
+li{
+list-style: none;
+/* border-bottom: 1px solid #e1d8d8; */
+box-shadow: #f0f4cd 0px 1px 8px;
+padding: 10px;
+/* width: 90%; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.completed{
+    border-bottom: 1px solid #43eb25;
+    font-weight: bold;
+}
+.incomplete{
+    border-bottom: 2px solid red;
+    font-style: italic;
+}
+button.trigger{
+    background-color: green;
+    color: #fff;
+    padding: 9px;
+    border: none;
+}
+
+.head{
+    box-shadow: 1px 0px 3px #5a5252;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head a{
+    color: rgb(203, 46, 46);
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.footer{
+    color: red;
+    font-size: 20px;
+    margin-top: 7.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
+.addTasks{
+    box-shadow: 1px 0px 2px #333;
+    /* padding: 17px; */
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 70%;
+    margin: auto;
+}
+
+
+
+
+.addTasks button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(115, 150, 115);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.heading-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around ;
+    /* margin: 3px */
+}
+.hero input{
+    padding: 1rem;
+}
+.hero button{
+    border: none;
+    padding: 1rem;
+    margin: 5px;
+    background-color: rgb(157, 224, 157);
+}
+.hero select{
+    padding: 1rem;
+}
+
